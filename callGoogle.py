@@ -57,9 +57,10 @@ time.sleep(generate_random_between_steps())
 searchResults[0].click()
 time.sleep(generate_random_between_steps())
 
-# Scroll down the webpage using absolute y-position
+# Scroll down the webpage a 1000 pixels using y-position
 driver.execute_script("window.scrollTo(0, 1000)")
 
+# Scroll down 1000 pixels in a smooth way
 # for i in range(1, 1000, 20):
 #     driver.execute_script("window.scrollTo(" +str(i) +"," + str(i+20) + ")")
 #     time.sleep(generate_random_between_letters())
